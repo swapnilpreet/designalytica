@@ -41,15 +41,15 @@ function App() {
   return (
     <div className="text-center">
         <h1>Fill the Form</h1>
-      <form className="w-30 border border-black p-4 m-auto align-content-center justify-content-center rounded-2">
+      <form className="w-25 border border-black p-4 m-auto align-content-center justify-content-center rounded-2">
         <div className="mb-3">
           <label className="form-label">Number One</label>
-          <input type="number" className="form-control" required value={number1} onChange={(e) => setnumber1(e.target.value)}/>
+          <input type="number" className="form-control"  placeholder="type a number" required value={number1} onChange={(e) => setnumber1(e.target.value)}/>
         </div>
 
         <div className="mb-3">
-          <label className="form-label">Number One</label>
-          <input type="number" className="form-control" required value={number2} onChange={(e) => setnumber2(e.target.value)}/>
+          <label className="form-label">Number Two</label>
+          <input type="number" className="form-control" placeholder="type a number" required value={number2} onChange={(e) => setnumber2(e.target.value)}/>
         </div>
         <div className="d-flex flex-row justify-content-evenly">
           <div>
