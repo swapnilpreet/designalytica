@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="text-center">
         <h1>Fill the Form</h1>
-      <form className="w-50 border border-black p-4 m-auto align-content-center justify-content-center rounded-2">
+      <form className="w-30 border border-black p-4 m-auto align-content-center justify-content-center rounded-2">
         <div className="mb-3">
           <label className="form-label">Number One</label>
           <input type="number" className="form-control" required value={number1} onChange={(e) => setnumber1(e.target.value)}/>
